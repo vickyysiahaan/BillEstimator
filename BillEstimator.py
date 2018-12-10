@@ -152,13 +152,15 @@ def EstimateBill():
                 interval = list(data[1].values())[1]
                 
             Result = []
+            threads = []
             for i,device in enumerate(devices):
                 globals().update(device)
                 t = threading.Thread(target=BillDataCollecter, args=[Result,name,'DEVICE',entity_id,AccessToken,True,[key],price_kwh])
                 t.start()
-            
+                threads.append(t)
+                
             for i,device in enumerate(devices):
-                t.join()
+                threads[i].join()
 
             with open(FolderPath + "/Result.json", "w") as file:
                 json.dump(Result,file,indent=4)
