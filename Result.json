@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Plumbing1_PilotSPM91",
+        "Energy": 172.5,
+        "Bill": 258750
+    },
+    {
+        "name": "G_PilotSPM33",
+        "Energy": 1125.4,
+        "Bill": 1688100
+    },
+    {
+        "name": "E_PilotSPM33",
+        "Energy": 4487.3,
+        "Bill": 6730950
+    },
+    {
+        "name": "C_PilotSPM33",
+        "Energy": 3014.5,
+        "Bill": 4521750
+    },
+    {
+        "name": "D_PilotSPM33",
+        "Energy": 71.4,
+        "Bill": 107100
+    },
+    {
+        "name": "Plumbing2_PilotSPM91",
+        "Energy": 54.3,
+        "Bill": 81450
+    },
+    {
+        "name": "Plumbing3_PilotSPM91",
+        "Energy": 0.2,
+        "Bill": 300
+    },
+    {
+        "name": "B_DirisA20",
+        "Energy": 17687,
+        "Bill": 26530500
+    }
+]
